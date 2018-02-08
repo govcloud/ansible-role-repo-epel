@@ -3,7 +3,6 @@ services: docker
 
 env:
   - distro: centos7
-  - distro: centos6
 
 script:
   # Download test shim.
@@ -15,3 +14,5 @@ script:
 
 notifications:
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
+  slack:
+    secure: Z6EMKzSEEaVUvUYLqvP49AX8lk2jKii8jPOJAdOV+LP+83+ME4rACpKowOQvuAZdwlEs8UazZzI8HTp8bs+GOFTGuW1cbc6fAdvq2yAT3oNm/BNAGCZeuRaSa7XZ62aYo6k3R6a1frPviiFZO+S/G+94xQgEjVLd/uETiTdflUNzbJYzkUvAIfWc/z4uGi6oW9wKff27YAB+nD7+JEQbD9Nnrq8C3/EoDzNRjUrZC8BvJqVgEvrFYY/E8KBKJkqiQolTpfvyA4GdHIo8Z859OA9CHy3zITT4ssLJFxRZQk663TlgNfPHlCIKkEl0tR8e2HF5WIbqc9c/xn7OMfBf6bvPfABzxt4D6Zxv9WJ3jbEK4T1arWQdLeVKeVce+khpNtUz912UD2UTijXEla3AeQoK+yCCAruoP96Ba0lfXRsfK9IrggxafS3u8nmnE/xO7CvwKnQ1zHMBOAj+ZdEXjjvv98IontvG04qwZwJKU/D9IhTpcyTkydm+7ZcEEfgw9jthOjgMUhPH2XS4hP4ADs8DwSgR2w+kzj/rPvZCSmiZcy5LeHVap1DtLUQEBvd/wEnH/50E+wv5rc7An7Az3/JFYkjwZ071uwXW/KG+rQvZhfihavZuaxQba80ZMHyCYbNyBK330+LsJrFOzOOAWQvOH/k91fKucIlGcOYVqTU=
